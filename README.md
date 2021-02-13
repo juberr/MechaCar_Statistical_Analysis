@@ -34,7 +34,7 @@ Assuming a normal significance level with a p-value of 0.05, Lot 3 has a differe
 
 ![t-test lot 2](https://github.com/juberr/MechaCar_Statistical_Analysis/blob/main/Pics/lot2%20ttest.png?raw=true)
 
-![t-test all]()
+![t-test all](https://github.com/juberr/MechaCar_Statistical_Analysis/blob/main/Pics/t-test%20all.png?raw=true)
 
 t-tests for the other samples (Lots 1 and 2, and total sample), do not have a different mean that is significantly significant from the population's.
 
@@ -49,11 +49,11 @@ Maintenance cost should be tested via an average maintenance cost per year. This
 * `Ho` : The MechaCar costs no different on average per year to maintain functionality
 * `Ha` : The MechaCar costs less than average per year to maintain functionality
 
-To acquire data, this study needs access to average maintenance costs overtime for cars considered competition to the MechaCar.
+To acquire data, this study needs access to average maintenance costs overtime for cars considered competition to the MechaCar, and the maintenance cost for the MechaCar itself.
 
-Safety ratings can be tested using an ANOVA test. In this ANOVA test, the categorical variable would be the brand of car (e.g. Toyota, Kia) and would be tested against their mean safety rating. The following hypotheses would tested:
+Safety ratings can be tested using an ANOVA test. In this ANOVA test, the categorical variable would be the brand of car (e.g. Toyota, Kia) and would be tested against their mean safety rating as the continuous variable. This test would demonstrate if there is a difference in safety rating between MechaCars and other brands of cars. The following hypotheses would tested:
 
 * `Ho` : There is no statistically significant difference between safety rating and brand of car.
-* `Ha` : The MechaCar has a higher safety rating that is statistically significant.
+* `Ha` : The MechaCar has a higher average safety rating.
 
-The data for this test can be acquired through finding the safety ratings for the cars of competition and then aggregating them by brand.
+The data for this test can be acquired through finding the independent safety ratings for the cars of the competition and then aggregating them by brand.
